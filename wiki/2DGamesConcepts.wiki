@@ -1,4 +1,4 @@
-#summary A brief explanation about 2D Games Concepts
+#summary A brief explanation about 2D games concepts
 
 = 2D Games Concepts =
 
