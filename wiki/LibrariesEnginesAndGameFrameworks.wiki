@@ -1,6 +1,6 @@
-#summary Libraries, engines and games frameworks
+#summary Libraries, engines and gamesframeworks
 
-= Libraries, engines and games frameworks =
+= Libraries, engines and game frameworks =
 <p>It is important to differenciate the tools that helps in the game development process acceleration, as confusions involving these concepts are quite common.
 
 <p>*Libraries* are composed of a set of classes and generic functions, created to assist the resolution of commom problems in game development.
