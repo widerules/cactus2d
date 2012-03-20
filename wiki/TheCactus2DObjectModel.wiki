@@ -12,7 +12,7 @@ In addition to the game objects, it must also be set the different behaviors of 
 For more specific objects, this approach requires the creation of subclasses to implement the specific features. Thus, when we need to model more complex objects, we get stuck on inheritance, since some objects need to inherit from more than one class, thus requiring a model with multiple inheritance, as shown in Figure 2. Not very often you need to have the same behaviors in game objects that are on different sides of the class hierarchy, and in addition, good practice guidance to the objects do not recommend overuse of inheritance due to various problems of reuse that entails.
 
 
-Figure 2. Multiply Inherated in Inherated/Specialization Model.
+<div id="attachment_311" class="wp-caption alignnone" style="width: 257px"><a href="http://sertaogames.files.wordpress.com/2012/02/figure-2.png"><img class="size-full wp-image-311" title="Figure 2" src="http://sertaogames.files.wordpress.com/2012/02/figure-2.png?w=584" alt=""   /></a><p class="wp-caption-text">Figure 2. Multiply Inherated in Inherated/Specialization Model.</p></div>
 
 For more specific objects, this approach requires the creation of subclasses to implement the specific features. Thus, when we need to model more complex objects, we get stuck on inheritance, since some objects need to inherit from more than one class, thus requiring a model with multiple inheritance, as shown in Figure 2. Not very often you need to have the same behaviors in game objects that are on different sides of the class hierarchy, and in addition, good practice guidance to the objects do not recommend overuse of inheritance due to various problems of reuse that entails.
 
