@@ -7,7 +7,7 @@ In the development of a game, it is necessary to represent all the elements that
 In addition to the game objects, it must also be set the different behaviors of each one of them. For this reason, some engines use an object model based in inheritance / specialization. In this model, shown in Figure 1, the classes that represent game objects must inherit from a core class, often called GameObject. Thus, a game object can be seen as a reusable container of features and basic attributes such as position and orientation, for example.
 
 
-Figura 1. Inherated/Specialization Model of Game Objects.
+<a href="http://sertaogames.files.wordpress.com/2012/02/figure-1.png"><img class="size-full wp-image-310 " title="Figure 1" src="http://sertaogames.files.wordpress.com/2012/02/figure-1.png?w=584" alt=""   /></a>Figure 1. Inherated/Specialization Model of Game Objects.
 
 For more specific objects, this approach requires the creation of subclasses to implement the specific features. Thus, when we need to model more complex objects, we get stuck on inheritance, since some objects need to inherit from more than one class, thus requiring a model with multiple inheritance, as shown in Figure 2. Not very often you need to have the same behaviors in game objects that are on different sides of the class hierarchy, and in addition, good practice guidance to the objects do not recommend overuse of inheritance due to various problems of reuse that entails.
 
