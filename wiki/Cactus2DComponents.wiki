@@ -2,8 +2,6 @@
 
 = Cactus2D Components =
 
-Cactus2D Components
-
 Cactus2D comes with several classes that represent reusable components which are very useful for most games. Here is a brief explanation about each one of these components.
 
 *SpriteRendererComponent*: Component responsible for applying a texture on a game object by loading files that contain sprites.
