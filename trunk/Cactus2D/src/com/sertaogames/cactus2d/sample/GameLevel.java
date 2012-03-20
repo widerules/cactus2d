@@ -18,7 +18,7 @@ public class GameLevel extends Cactus2DLevel {
 	@Override
 	protected void init() {
 		GameObject sertao = new GameObject("sertao");
-		Texture texture = Cactus2DApplication.loadTexture("assets/data/sertao.png");
+		Texture texture = Cactus2DApplication.loadTexture("data/sertao.png");
 		SpriteRendererComponent sr = new SpriteRendererComponent(texture);
 		
 		sertao.AddComponent(sr);
