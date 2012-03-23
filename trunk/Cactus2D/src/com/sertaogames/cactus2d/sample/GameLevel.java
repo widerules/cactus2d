@@ -9,7 +9,7 @@ import com.sertaogames.cactus2d.components.SpriteRendererComponent;
 import com.sertaogames.cactus2d.components.TouchComponent;
 
 /**
- * 
+ * Level sample
  * @author Diogo Vinícius
  *
  */
