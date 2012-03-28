@@ -1,4 +1,5 @@
 #summary Introduction Cactus2D
+#labels Featured
 
 = Using the Cactus2D =
 
