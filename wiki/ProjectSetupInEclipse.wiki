@@ -1,6 +1,6 @@
-#summary Creating an Android Project to Run the Game in Eclipse
+#summary Creating an Android Project in Eclipse
 
-== Creating an Android Project to Run the Game in Eclipse==
+== Project Setup In Eclipse ==
 
 Up to now, we saw how a game implemented with Cactus2D works and how to run it. Until this moment, the game can run in any architecture, either Mac, Linux or Windows. However, we still need to install the game on an Android device, and for that we will show how to do this step by step.
 
