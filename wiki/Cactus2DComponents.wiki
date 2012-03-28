@@ -6,6 +6,8 @@ Cactus2D comes with several classes that represent reusable components which are
 
 *SpriteRendererComponent*: Component responsible for applying a texture on a game object by loading files that contain sprites.
 
+*AudioComponent*: Component that reproduces a custom sound.
+
 *AnimationComponent*: Based on the sprites loaded with the SpriteRendererComponent, the AnimationComponent defines the animation settings for the game object, such as frequency and sequence of the sprites to be rendered.
 
 *PhysicsComponent*: For every object that should interact with other objects and need to simulate real world physics, this component must be added.
