@@ -1,4 +1,4 @@
-#summary Example of use of the compoenent SpriteRendererComponent.
+#summary Example of use of the component SpriteRendererComponent.
 
 = Sprite Renderer Component =
 
