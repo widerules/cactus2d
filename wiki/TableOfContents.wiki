@@ -4,7 +4,7 @@
 
   *  General
     *  [2DGamesConcepts 2D Games Concepts]
-    *  [LibrariesEnginesAndGameFrameworks Libraries, engines and game frameworks]
+    *  [LibrariesEnginesAndGameFrameworks Libraries, Engines and Game Frameworks]
     *  [TheCactus2DObjectModel The Cactus2D Object Model]
   *  Introduction
     *  [UsingCactus2D Introduction to Cactus2D]
