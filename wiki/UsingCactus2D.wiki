@@ -1,4 +1,4 @@
-#summary Introduction Cactus2D.
+#summary Introduction Cactus2D
 
 = Using the Cactus2D =
 
