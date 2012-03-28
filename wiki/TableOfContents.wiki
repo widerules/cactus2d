@@ -14,8 +14,8 @@
 <li>Tutorials</li>
 <ul>
 <li>[Cactus2DComponents	Cactus2D Components]</li>
-  *[AudioComponent] AudioComponent
-  *[ButtonComponent] ButtonComponent
+  *  [AudioComponent] AudioComponent
+  *  [ButtonComponent] ButtonComponent
 
 </ul>
 <li>[LibrariesEnginesAndGameFrameworks Libraries, engines and game frameworks]</li>
