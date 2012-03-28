@@ -13,6 +13,6 @@
     *  [AnimationComponent AnimationComponent]
     *  [AudioComponent AudioComponent]
     *  [ButtonComponent ButtonComponent]
-    *  [ProjectSetupInEclipse Creating an Android Project to Run the Game In Eclipse]
+    *  [ProjectSetupInEclipse Project Setup In Eclipse]
     *  [PlayingMusic Playing Music]
     *  [SpriteRendererComponent SpriteRendererComponent]
