@@ -46,7 +46,7 @@ anim.addAnimation("animation", tx, sizeX, sizeY, frames, fps, false);
 anim.play("animation");
 }}}
 
-Now just add the image to gameObject, so that it is linked also to the level and make some adjustments, like adding a component SprinteRendererComponent. The need for this component is only to inform Cactus2D he should be drawn on the screen. Furthermore, we change the position of the object on the screen to make it more centralized.
+Now just add the image to gameObject, so that it is linked also to the level and make some adjustments, like adding a component SpriteRendererComponent. The need for this component is only to inform Cactus2D he should be drawn on the screen. Furthermore, we change the position of the object on the screen to make it more centralized.
 
 {{{
 animatedGO.AddComponent(new SpriteRendererComponent(null));
