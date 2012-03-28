@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Example of use of the compoenent SpriteRendererComponent.
 
 = Sprite Renderer Component =
 
@@ -7,11 +7,16 @@ A sprite is an image used to represent the appearance of an game object.These ga
 In Cactus2D to apply a sprite in a game object, use the component called SpriteRendererComponent. Here's the code for the creation and use of a component type SpriteRendererComponent:
 
 {{{
-GameObject sertao = new GameObject("sertao");
-Texture texture = Cactus2DApplication.loadTexture("data/sertao.png");
-SpriteRendererComponent sr = new SpriteRendererComponent(texture);
-sertao.AddComponent(sr);
-addGameObject(sertao);
+public class GameLevel extends Cactus2DLevel {
+   @Override
+   public void init() {
+      GameObject sertao = new GameObject("sertao");
+      Texture texture = Cactus2DApplication.loadTexture("data/sertao.png");
+      SpriteRendererComponent sr = new SpriteRendererComponent(texture);
+      sertao.AddComponent(sr);
+      addGameObject(sertao);
+   }
+}
 }}}
 
 After defining an object of type Texture loading an image file as shown in second line. When instantiating a SpriteRendererComponent passes it as parameter the newly created texture and then we have the component to be added to any game object, as shown in fourth line of the listings above.
