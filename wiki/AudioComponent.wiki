@@ -8,4 +8,4 @@ This component tells the engine how to play a certain sound, allowing you to inc
 AudioComponent audio = new AudioComponent("data/sound/sample.wav")
 }}}
 
-The process to load and launch an audio sample with Cactus2D is quite simple. In order to use music and sound loop in your game, first you must create a variable of type Sound to store the desired sound passing a string to the class contructor.
+The process to load and launch an audio sample with Cactus2D is quite simple. In order to use music and sound loop in your game, first you must create a variable of type AudioComponent to store the desired sound passing a string to the class contructor.
