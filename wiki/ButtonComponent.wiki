@@ -23,7 +23,7 @@ public static GameObject createButton() {
 
 }}}
 
-The ButtonComponent has some attributes of type TextureRegion to define a button that can be instantiated with two images:
+The ButtonComponent has some attributes of type TextureRegion to define a button that can be instantiated with images:
 
 normalImage: Represent the button unpressed.
 
