@@ -13,5 +13,5 @@
     *  [AnimationComponent AnimationComponent]
     *  [AudioComponent AudioComponent]
     *  [ButtonComponent ButtonComponent]
-    *  [SpriteRendererComponent SpriteRendererComponent]
     *  [PlayingMusic Playing Music]
+    *  [SpriteRendererComponent SpriteRendererComponent]
