@@ -1,0 +1,80 @@
+#summary Introduction Cactus2D.
+
+= Using the Cactus2D =
+
+Creating an Android Project to run the Game
+
+Before read about 2DGamesConcepts and TheCactus2DObjectModel, you're able to read this page. First we need to show how to create and to use a level with the Cactus2D
+
+== Levels ==
+
+This is another important concept implemented in Cactus2D. Level is how the game phases and screens are known. Each menu, each splash screen, each scene is represented by a level. In games implemented with Cactus2D, every level must extend the Cactus2DLevel class.
+
+Now we’re going to see the example that comes in the Cactus2D package sample. When you run this example, an object is created on the game screen, which will be controlled by touch, holding and dragging the object, for this, a drag and drop component will be used.
+
+On the source code list 1, the code represents one level for the game screen. On this level is created a game object called “sertao” and three components are added to this game object. The first component is the SpriteRendererComponent (from the Cactus2D), which apply the texture with a ball to the object. The second component is the TouchComponent. The last component, was implemented to the sample. It encapsulates the drag and drop input behavior.
+
+The init() method is always called by the engine when the level is loaded, this way, on the GameLevel example, all the composition needed for the level are defined on the beginning.
+
+SourceCode List 1. GameLevel Implementation.
+{{{
+public class GameLevel extends Cactus2DLevel { 
+   @Override
+   protected void init() {
+      GameObject sertao = new GameObject("sertao");
+      Texture texture = Cactus2DApplication.loadTexture("data/sertao.png");
+      SpriteRendererComponent sr = new SpriteRendererComponent(texture);
+      sertao.AddComponent(sr);
+      sertao.AddComponent(new TouchComponent(new Vector2(100, 100)));
+      sertao.AddComponent(new DragNDropComponent());
+      addGameObject(sertao);
+   }          
+}
+}}}
+The source code list 2, show the implementation of the specific component for this example. As you can see, the update() method are inherited from the component class. On this method, which is executed from every loop of the game, the position of the ball is updated by using the input of the device’s touchscreen. On the update() method we updated the game object by the attribute transform which are inherited from Component class.
+
+SourceCode List 2. Implementation of the Drag and Drop component.
+{{{
+public class DragNDropComponent extends Component {
+   @Override
+   public void onTouchStay(Vector2 touchPosition) {
+      transform.setLocalPosition(touchPosition);
+   }           
+}
+}}}
+To execute the game, you need to instantiate the level created and execute it, like on the source code list 3. On the PC, the touch option can be simulated by the click of the mouse.
+
+SourceCode List 3. Class that execute the Sample.
+{{{
+public class Cactus2DSample {
+   public static void main(String[] args) {
+      Cactus2DApplication game = new Cactus2DApplication();
+      game.loadLevel(new GameLevel());
+      new JoglApplication(game, "Cactus2D Sample", 320, 600, false);
+   }           
+}
+}}}
+
+Up to now, we saw how a game implemented with Cactus2D works and how to run it. Until this moment, the game can run in any architecture, either Mac, Linux or Windows. However, we still need to install the game on an Android device, and for that we will show how to do this step by step.
+
+First thing first, we need to create another project to execute our game in an Android environment. For that, go to Eclipse menu and choose the *File -> New -> Android Project* option. Choose the name Cactus2DSampleAndroid and click Next. On the next screen choose one of the SDK versions which you have installed and click Next one more time. In the last screen of the wizard complete the space with the project package: com.sertaogames.cactus2d and click on Finish. It’ll be created an Android project with a class named Activity (Cactus2DSampleAndroidActivity), which is responsible for initiating the Android application.
+
+However, two more steps are still needed. The first one is to setup the project to include the Cactus2D in the classpath of the new Android project. For this, right click on the Android project and choose the Build Path -> Configure Build Path option. Select the Projects tab and inside of it click on the button Add. Select the Cactus2D project and confirm the operation. The second step is also to include some jars from the libgdx library, in the classpath. Go to: [http://code.google.com/p/libgdx/downloads] and download the new version of the project. On our example, we downloaded the project libgdx-0.9.2.zip. On the Android project you’ve to create a folder called libs and paste the jars gdx-backend-adroid.jar and dgx.jar, and the armeabi and armeabi-v7a folders which we found inside the libgdx-0.9.2 and add these jars in the classpath of the Android project.
+
+You must also copy the content of the assets folder from Cactus2D project to the folder with the same name which exists in the Android project. After that, edit the Activity class like source code list 4.
+
+SourceCode List 4. Method to execute the sample for Android
+
+{{{
+public void onCreate(Bundle savedInstanceState) {
+   super.onCreate(savedInstanceState);
+   Cactus2DApplication game = new Cactus2DApplication();
+   game.loadLevel(new GameLevel());
+   initialize(game, false);
+}
+}}}
+On this piece of code an object of Cactus2DApplication type is created, which is responsible for instantiating the first level to be executed, in other words the level defined on the GameLevel class. The last line shows how to call the libgdx library to execute the game and manage the game loop.
+
+== Compiling and Signing the Game ==
+
+To install your application on an Android device, you need to sign it with a digital certificate which identifies the application’s author. Therefore, to release your application to the public, you need to get a valid private key, compile the application in release mode, sign your application with your private key and then, align the APK package final. These steps can be made on the command line or visually with the eclipse plugin. To do this process with the ADT, you only need to select the project in the “Package Explorer” option, click *File -> Export*, open the Android folder, select “Export Android Application”, and click Next. In the follow, the export assistant will available a step by step how do the process of signature of your application, where you can select a private key which exists or create a new key to sign the application.
