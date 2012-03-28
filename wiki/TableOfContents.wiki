@@ -8,7 +8,6 @@
     *  [TheCactus2DObjectModel The Cactus2D Object Model]
 
   *  Tutorials
-
     *  [Cactus2DComponents Cactus2D Components]
     *  [AudioComponent Audio Component]
     *  [ButtonComponent Button Component]
