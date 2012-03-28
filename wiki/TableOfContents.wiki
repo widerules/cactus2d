@@ -5,7 +5,7 @@
 <ul>
 <li>General</li>
 <ul>
-<li>2DGamesConcepts</li>
+<li>2D Games Concepts</li>
 </ul>
 
 </ul>
