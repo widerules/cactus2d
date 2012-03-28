@@ -5,9 +5,9 @@
 <ul>
 <li>General</li>
 <ul>
-<li>[2D Games Concepts]</li>
-<li>Libraries Engines And Game Frameworks</li>
-<li>The Cactus2D Object Model</li>
+<li>[ 2D Games Concepts ]</li>
+<li>[Libraries Engines And Game Frameworks]</li>
+<li>[The Cactus2D Object Model]</li>
 </ul>
 
 </ul>
