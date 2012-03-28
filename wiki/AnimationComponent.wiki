@@ -27,8 +27,8 @@ Texture tx  = new Texture(file);
 }}}
 
 Now define the variables that determine how our animation will be formed:
-* Full framesPerSecond - The first is the speed in frames per second in which images are displayed: This variable will call fps, it determines how many frames are displayed per second during the execution of the animation.
-* Full sizeX and sizeY - Represents the default size of the image frames. The image is divided exactly in those sizes, and from 0 indexed from left to right as shown in Figure 01.
+  *  Full framesPerSecond - The first is the speed in frames per second in which images are displayed: This variable will call fps, it determines how many frames are displayed per second during the execution of the animation.
+  *  Full sizeX and sizeY - Represents the default size of the image frames. The image is divided exactly in those sizes, and from 0 indexed from left to right as shown in Figure 01.
 entire collection of frames - Determines the sequence of frames that will be displayed during the animation.
 
 {{{
