@@ -7,7 +7,7 @@
     *  [LibrariesEnginesAndGameFrameworks Libraries, Engines and Game Frameworks]
     *  [TheCactus2DObjectModel The Cactus2D Object Model]
   *  Introduction
-    *  [UsingCactus2D Introduction to Cactus2D]
+    *  [UsingCactus2D Using Cactus2D]
     *  [Cactus2DComponents Cactus2D Components]
   *  Tutorials
     *  [AnimationComponent AnimationComponent]
