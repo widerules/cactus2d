@@ -7,11 +7,12 @@
     *  [LibrariesEnginesAndGameFrameworks Libraries, engines and game frameworks]
     *  [TheCactus2DObjectModel The Cactus2D Object Model]
 
+  *  Introduction
+    *  [UsingCactus2D Introduction to Cactus2D]
+    *  [Cactus2DComponents Cactus2D Components]
+
   *  Tutorials
-    *  Introduction
-      *  [UsingCactus2D Introduction to Cactus2D]
-      *  [Cactus2DComponents Cactus2D Components]
-        *  [AnimationComponent AnimationComponent]
-        *  [AudioComponent AudioComponent]
-        *  [ButtonComponent ButtonComponent]
-        *  [SpriteRendererComponent SpriteRendererComponent]
+    *  [AnimationComponent AnimationComponent]
+    *  [AudioComponent AudioComponent]
+    *  [ButtonComponent ButtonComponent]
+    *  [SpriteRendererComponent SpriteRendererComponent]
