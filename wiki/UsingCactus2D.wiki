@@ -3,7 +3,7 @@
 
 = Using the Cactus2D =
 
-Before read about 2DGamesConcepts and TheCactus2DObjectModel, you're able to read this page. First we need to show how to create and to use a level with the Cactus2D
+Before read about [2DGamesConcepts 2D Games Concepts] and [TheCactus2DObjectModel The Cactus2D Object Model], you're able to read this page. First we need to show how to create and to use a level with the Cactus2D
 
 == Levels ==
 
