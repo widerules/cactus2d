@@ -1,6 +1,6 @@
 #summary Example of use of the component SpriteRendererComponent.
 
-= Sprite Renderer Component =
+= SpriteRendererComponent =
 
 A sprite is an image used to represent the appearance of an game object.These game objects can be characters, obstacles in the scenario, the scenario includes their own GUI (Graphic User Interface) which are the menus, buttons and game information to be displayed on screen.
 
