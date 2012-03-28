@@ -7,7 +7,6 @@
 <ul>
 <li>2DGamesConcepts</li>
 <li>LibrariesEnginesAndGameFrameworks</li>
-<li>LibrariesEnginesAndGameFrameworks</li>
 <li>TheCactus2DObjectModel</li>
 </ul>
 
