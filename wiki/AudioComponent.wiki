@@ -2,10 +2,26 @@
 
 = AudioComponent =
 
-This component tells the engine how to play a certain sound, allowing you to incorporate sound effects in your game. It also has the basic controls to play and stop a sound. An example of how to load an audio sample into an AudioComponent follows:
+This component tells the engine how to play a certain sound, allowing you to incorporate sound effects in your game. It also has the basic controls to play and stop a sound. 
+
+In order to use music and sound loop in your game, the process to load and launch an audio sample with Cactus2D is quite simple, first you must create a variable of type AudioComponent to store the desired sound passing a string to the class contructor. An example of how to load an audio sample into an AudioComponent follows:
 
 {{{
 AudioComponent audio = new AudioComponent("data/sound/sample.wav")
 }}}
 
-The process to load and launch an audio sample with Cactus2D is quite simple. In order to use music and sound loop in your game, first you must create a variable of type AudioComponent to store the desired sound passing a string to the class contructor.
+To launch the music there is an object in the Cactus2DApplication class called jukebox that can be accessed from any part of the game at any time. It allows the addition of music, thereby creating a kind of playlist. A good tip is that the songs on a jukebox be added to the game and loaded on the first level, so having them available during the game and avoiding performance problems by loading audio files during the other phases of the game.
+
+{{{
+GameObject go = new GameObject("play-button");
+go.AddComponent(new SpriteRenderer(null));
+		
+Texture bt = Cactus2DApplication.loadTexture("data/textures/buttons-all.png",true);
+TextureRegion[][] tmp = TextureRegion.split(bt, 256, 128);
+go.AddComponent(new ButtonComponent(tmp[0][0],tmp[1][0]));
+addGameObject(go);
+		
+Cactus2DApplication.jukeBox.play(0);
+}}}
+
+
