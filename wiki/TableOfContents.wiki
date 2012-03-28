@@ -9,7 +9,7 @@
 
   *  Tutorials
     *  [Cactus2DComponents Cactus2D Components]
-    *  [AnimationComponent AnimationComponent]
-    *  [AudioComponent AudioComponent]
-    *  [ButtonComponent ButtonComponent]
-    *  [SpriteRendererComponent SpriteRendererComponent]
+      *  [AnimationComponent AnimationComponent]
+      *  [AudioComponent AudioComponent]
+      *  [ButtonComponent ButtonComponent]
+      *  [SpriteRendererComponent SpriteRendererComponent]
