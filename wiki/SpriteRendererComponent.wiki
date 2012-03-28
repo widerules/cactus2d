@@ -12,11 +12,11 @@ public class GameLevel extends Cactus2DLevel {
    public void init() {
       GameObject sertao = new GameObject("sertao");
       Texture texture = Cactus2DApplication.loadTexture("data/sertao.png");
-      SpriteRendererComponent sr = new SpriteRendererComponent(texture);
-      sertao.AddComponent(sr);
+      SpriteRendererComponent spriteRenderer = new SpriteRendererComponent(texture);
+      sertao.AddComponent(spriteRenderer);
       addGameObject(sertao);
    }
 }
 }}}
 
-After defining an object of type Texture loading an image file as shown in second line. When instantiating a SpriteRendererComponent passes it as parameter the newly created texture and then we have the component to be added to any game object, as shown in fourth line of the listings above.
+After defining an object of type Texture loading an image file as shown in second line from method _init()_. When instantiating a SpriteRendererComponent passes it as parameter the newly created texture and then we have the component to be added to any game object, as shown in fourth line from method _init()_ of the listings above.
