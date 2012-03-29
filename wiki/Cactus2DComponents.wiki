@@ -1,4 +1,5 @@
 #summary Cactus2D Components
+#labels Featured
 
 = Cactus2D Components =
 
