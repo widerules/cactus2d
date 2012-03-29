@@ -32,7 +32,6 @@ Now define the variables that determine how our animation will be formed:
 entire
   *  Collection of frames - Determines the sequence of frames that will be displayed during the animation.
 
-http://imageshack.us/photo/my-images/844/figura5y.jpg/
 
 {{{
 int fps = 5;
