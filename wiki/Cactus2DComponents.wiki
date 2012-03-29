@@ -16,7 +16,7 @@ Cactus2D comes with several classes that represent reusable components which are
 
 *ButtonComponent*: Defines a button that can be instantiated with two images (one to represent the button unpressed and the other to be rendered when the button is pressed).
 
-*LabelComponent*: Component that draws a label on the screen based on the *. fnt file created for the game.
+*LabelComponent*: Component that draws a label on the screen based on the .fnt file created for the game.
 
 *TouchComponent*: Captures the game inputs on the touchscreen.
 
