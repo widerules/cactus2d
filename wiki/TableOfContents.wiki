@@ -12,7 +12,13 @@
   *  Tutorials
     *  [AnimationComponent AnimationComponent]
     *  [AudioComponent AudioComponent]
+    *  [BoxCollider BoxCollider]
     *  [ButtonComponent ButtonComponent]
+    *  [LabelComponent LabelComponent]
     *  [ProjectSetupInEclipse Project Setup In Eclipse]
+    *  [PhysicsComponent PhysicsComponent]
     *  [PlayingMusic Playing Music]
     *  [SpriteRendererComponent SpriteRendererComponent]
+    *  [TileMapComponent TileMapComponent]
+    *  [TouchComponent TouchComponent]
+    *  [TransformComponent TransformComponent]
