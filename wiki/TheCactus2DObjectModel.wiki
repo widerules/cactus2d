@@ -1,4 +1,5 @@
 #summary The Cactus2D Object Model
+#labels Featured
 
 = The Cactus2D Object Model =
 
