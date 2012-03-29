@@ -5,10 +5,10 @@
   *  General
     *  [2DGamesConcepts 2D Games Concepts]
     *  [LibrariesEnginesAndGameFrameworks Libraries, Engines and Game Frameworks]
-    *  [TheCactus2DObjectModel The Cactus2D Object Model]
   *  Introduction
-    *  [UsingCactus2D Using Cactus2D]
+    *  [TheCactus2DObjectModel The Cactus2D Object Model]
     *  [Cactus2DComponents Cactus2D Components]
+    *  [UsingCactus2D Using Cactus2D]
   *  Tutorials
     *  [AnimationComponent AnimationComponent]
     *  [AudioComponent AudioComponent]
