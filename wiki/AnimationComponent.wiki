@@ -6,7 +6,7 @@ Animation is the process in which several images are produced individually and r
 
 Cactus2D supports animation via Component Annimation. Before using this component, we need to create an asset that contains all parts of our animation. This asset must follow certain rules to be properly processed.
 Requirements of the image that contains the animation:
-  *  Have your measurements quadratic;
+  *  Have quadratic measurements;
   *  The frames are divided quadratically
 
 In our example we are going to use an asset that has 1024x1024px splited into 384x192px frames. Within each frame there is an image aligned with the upper left corner of the frame, all with a little difference from the previous one. For praticing, you can search for other images on the Internet with the same characteristics, or create your own images using tools like Photoshop, Illustrator and Corel.
