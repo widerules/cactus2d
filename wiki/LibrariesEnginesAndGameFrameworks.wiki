@@ -3,7 +3,7 @@
 = Libraries, engines and game frameworks =
 <p>It is important to differenciate the tools that helps in the game development process acceleration, as confusions involving these concepts are quite common.
 
-<p>*Libraries* are composed of a set of classes and generic functions, created to assist the resolution of commom problems in game development.
+<p>*Libraries* are composed of a set of classes and generic functions, created to assist the resolution of common problems in game development.
 
 <p>A *framework*, by its turn, can be described as a structure that suports game development, working as a frame or skeleton, so the programmer can be concerned with implementation of the game specific logic. To characterize a framework, it is not necessary the integration of diverse libraries or the implementation of a asset  pipeline.
 
