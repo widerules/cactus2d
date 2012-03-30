@@ -1,8 +1,9 @@
 /**
+
  This file is part of Cactus2D.
 
     Cactus2D is free software: you can redistribute it and/or modify
-    it under the terms of the GNU Leser Public License as published by
+    it under the terms of the GNU Lesser Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
 
