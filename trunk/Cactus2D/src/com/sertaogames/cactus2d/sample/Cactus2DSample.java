@@ -5,7 +5,7 @@ import com.sertaogames.cactus2d.Cactus2DApplication;
 
 /**
  * 
- * @author Diogo Vinícius.
+ * @author Diogo Vinícius
  *
  */
 public class Cactus2DSample {
